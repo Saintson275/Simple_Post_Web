@@ -6,7 +6,7 @@ or a list and provide a form that allows adding a new post to the list. Each pos
 - title
 - completed
 
-However, the data fetched from the provided API endpoint (https://jsonplaceholder.typicode.com/posts) does not have a "completed" field, while another API endpoint on JSONPlaceholder (https://jsonplaceholder.typicode.com/todos) does. Since this assessment is intended to build a posts web application, I believe this should be an error in the instructions.
+However, the data fetched from the provided API endpoint([posts](https://jsonplaceholder.typicode.com/posts)) does not have a "completed" field, while another API endpoint([todos](https://jsonplaceholder.typicode.com/todos)) on JSONPlaceholder does. Since this assessment is intended to build a posts web application, I believe this should be an error in the instructions.
 
 This project is a simple blog application built using React, Redux Toolkit, and React Router. It allows users to view a list of posts, add new posts, and navigate between different sections of the application.
 
@@ -20,7 +20,7 @@ This project is a simple blog application built using React, Redux Toolkit, and 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Approach Taken](#approach-taken)
-- [License](#license)
+- [Results](#results)
 
 ## Installation
 
@@ -78,7 +78,7 @@ The project structure is organized as follows:
 - [Shadcn UI](https://ui.shadcn.com)
 - [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com) (Mock API for testing)
 
-## Approach Taken:
+## Approach Taken
 1. Project Setup and Initialization:
 
    - Clone Repository: Started by cloning the provided repository (https://github.com/Risidio/frontend_api_assement.git).
@@ -100,3 +100,9 @@ The project structure is organized as follows:
    - UX/UI Design: Designed a clean and responsive UI using Tailwind CSS utility classes for styling components such as cards, buttons, forms, and dialogs.
 
 This approach focused on leveraging Redux Toolkit for efficient state management, Axios for API communication, and React for building reusable components with TypeScript for type safety and improved code maintainability. Adjustments and enhancements can be made based on specific project requirements and real-world scenarios.
+
+## Results
+1. The web application has successfully fetched a list of posts from the given API endpoint and displayed them in a list of cards.
+2. Since we cannot actually change the data through the provided API, we can only verify whether a post has been successfully added by observing the status code and response data in the console. As shown in the following：
+![Project Logo](public/successful.png)
+![Project Logo](public/failed.png)
